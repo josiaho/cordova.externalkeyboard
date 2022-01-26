@@ -1,73 +1,31 @@
 {
-  "_from": "cordova-plugin-midi-sender",
-  "_id": "cordova-plugin-midi-sender@0.1.2",
-  "_inBundle": false,
-  "_integrity": "sha512-CybsCoLDyZmS6enIJ4ExnLpxcnBHMqGMo19/vwJ0q8CiUXB/NU90PTdIR+U7bBrcYYGtN+JpLH1X2R7CMzX9Zg==",
-  "_location": "/cordova-plugin-midi-sender",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "tag",
-    "registry": true,
-    "raw": "cordova-plugin-midi-sender",
-    "name": "cordova-plugin-midi-sender",
-    "escapedName": "cordova-plugin-midi-sender",
-    "rawSpec": "",
-    "saveSpec": null,
-    "fetchSpec": "latest"
-  },
-  "_requiredBy": [
-    "#USER",
-    "/"
-  ],
-  "_resolved": "https://registry.npmjs.org/cordova-plugin-midi-sender/-/cordova-plugin-midi-sender-0.1.2.tgz",
-  "_shasum": "586a520d91026591d9b7f432d2079c2b367c335c",
-  "_spec": "cordova-plugin-midi-sender",
-  "_where": "/Users/josiah/Dropbox/Website/slipity ios/cordova-uiwebview-new/beta",
-  "author": {
-    "name": "Josiah Oslund"
-  },
-  "bugs": {
-    "url": "https://github.com/josiaho/cordova-plugin-midi-sender/issues"
-  },
-  "bundleDependencies": false,
+  "name": "com.atuhi.externalkeyboard",
+  "version": "1.0.0",
+  "description": "External Keyboard Plugin",
   "cordova": {
-    "id": "cordova-plugin-midi-sender",
+    "id": "com.atuhi.externalkeyboard",
     "platforms": [
       "ios"
     ]
   },
-  "cordova_name": "MIDISender",
-  "deprecated": false,
-  "description": "MIDI Communication Plugin",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josiaho/cordova.externalkeyboard.git"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
   "engines": [
     {
       "name": "cordova",
-      "version": ">=3.1.0"
+      "version": ">=3.9.1"
     }
   ],
-  "homepage": "https://github.com/josiaho/cordova-plugin-midi-sender",
-  "issue": "https://github.com/josiaho/cordova-plugin-midi-sender/issues",
-  "keywords": [
-    "cordova",
-    "ecosystem:cordova",
-    "cordova-ios",
-    "MIDI",
-    "Program",
-    "Change",
-    "CoreAudio"
-  ],
-  "license": "Apache 2.0",
-  "name": "cordova-plugin-midi-sender",
-  "platforms": [
-    "ios"
-  ],
-  "repo": "https://github.com/josiaho/cordova-plugin-midi-sender.git",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/josiaho/cordova-plugin-midi-sender.git"
+  "author": "petrsimon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/josiaho/cordova.externalkeyboard/issues"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "version": "0.1.2"
+  "homepage": "https://github.com/josiaho/cordova.externalkeyboard"
 }
