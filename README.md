@@ -9,7 +9,7 @@ The `cordova.plugins.ExternalKeyboard` provides an easy way to configure keyboar
 
 First install the plugin proper:
 
-    cordova plugin add https://github.com/petrsimon/cordova.externalkeyboard.git
+    cordova plugin add https://github.com/josiaho/cordova.externalkeyboard.git
 
 After running the command above, open the iOS project in XCode and add the following code:
 
